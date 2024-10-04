@@ -99,11 +99,20 @@ export function Menu() {
           Comunicação Indireta
         </NavLink>
 
+        <span className="pt-4 pl-3 text-xs text-zinc-500">Hooks Básicos</span>
+
+        <NavLink to="useRef" className={getEstilo}>
+          <IconMessageUp />
+          UseRef
+        </NavLink>
+
+        <NavLink to="useEffect" className={getEstilo}>
+          <IconMessageUp />
+          UseEffect
+        </NavLink>
+
       </nav>
 
-      <footer className="absolute bottom-0 p-2 flex justify-center">
-        <span>Desenvolvimento Web 2</span>
-      </footer>
     </aside>
   );
 }

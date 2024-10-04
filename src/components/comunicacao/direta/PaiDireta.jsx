@@ -27,6 +27,7 @@ export function PaiDireta() {
 
             {/* <span className="text-4xl p-5">{nome}</span> */}
 
+            {/* Comunicação direta com o filho */}
             <FilhoDireta texto={nome}/>
 
         </div>
